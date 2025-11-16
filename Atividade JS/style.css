@@ -1,0 +1,105 @@
+/*================================Fonte==========================*/
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*===============================Reset===========================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Momo Trust Display', 'Roboto';
+}
+/*===============================Estilo Geral===========================*/
+body{
+    background-image: url(IMG/casa.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+    height: 500px;
+
+    /* Efeito vidro fosco */
+    backdrop-filter: blur(20px);
+    background-color: rgba(101, 169, 221, 0.2);
+    border: 1px solid;
+    border-color: gold;
+    border-radius: 15px;
+    box-shadow: 0 20px 38px 0 rgb(42, 70, 92);
+}
+
+.card_header{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.card_header i {
+    margin-right: 10px;
+    font-size: 3rem;
+    vertical-align: middle;
+}
+
+.card_body{
+    text-align: center;
+    color: white;
+}
+
+.card_body p{
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.bnt {
+    font-family: 'Roboto';
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0a48a5;
+    border-radius: 150px;
+    border-color: gold;
+    cursor: pointer;
+}
+
+.bnt:hover {
+    background-color: #052048;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.37);
+}
+
+.card_body label{
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card_body input{
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-self: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.resultado {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

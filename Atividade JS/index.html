@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="IMG/Logo_js.png" type="image/x-icon">
+</head>
+<body>
+     <main>
+        <section class="exercicio1">
+                <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-id-card-fill"></i> 1.Verificador de idade para habilitação </h2>
+                    </div>
+                    <div class="card_body">
+                    <form id="podeDirigir" method="post">
+                        <label for="pode_dirigir">Digite sua idade:</label>
+                        <br>
+                        <input class="ano" type="number" id="idade" name="idade" step="0.01" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                    </form>
+                    <div id="resultado"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/Pode_Dirigir.js"></script>
+        </section>
+
+        <section class="exercicio2">
+                 <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-arrow-right-wide-line"></i>2.Determinar o Maior entre três</h2>
+                    </div>
+                    <div class="card_body">
+                        <form id="Maiorq3" method="post">
+                        <label for="Maiorq_3">Digite 3 numeros: </label>
+                        <br>
+                        <input class="num1" type="number" id="valor" name="valor" required>
+                        <br>
+                        <input class="num2" type="number" id="valor2" name="valor" required>
+                        <br>
+                        <input class="num3" type="number" id="valor3" name="valor" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                    </form>
+                    <div id="resultadoMaiorq3"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/Maior3.js"></script>
+        </section>
+
+        <section class="exercicio3">
+                 <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-coins-fill"></i> 3.Classificador de moedas</h2>
+                    </div>
+                    <div class="card_body">
+                    <form id="Classificador_Moedas" method="post">
+                        <label for="Moedas_C">Digite um valor:</label>
+                        <br>
+                        <input class="moeda" type="number" id="classificador" name="classificador" step="0.01" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                    </form>
+                    <div id="resultadoClassificador_Moedas"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/Classificador_Moedas.js"></script>
+        </section>
+
+        <section class="exercicio4">
+                 <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-git-repository-private-fill"></i> 4.Verificador de Senha (Critérios Múltiplos)</h2>
+                    </div>
+                    <div class="card_body">
+                        <form id="Verificador_Senha" method="post">
+                        <label for="Senha_forte">Digite uma Senha forte</label>
+                        <br>
+                        <input class="Senha_Forte" type="text" id="Senha" name="Senha" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                        </form>
+                        <div id="resultadoVerificador_Senha"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/Verificador.js"></script>
+        </section>
+
+        <section class="exercicio5">
+                 <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-temp-hot-line"></i> 5.Alerta de Temperatura</h2>
+                    </div>
+                    <div class="card_body">
+                        <form id="Temperatura" method="post">
+                        <label for="Temperatura">Digite uma temperatura:</label>
+                        <br>
+                        <input class="Temp" type="number" id="Tempe" name="Tempe" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                        </form>
+                        <div id="resultado_Temp"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/Temperatura.js"></script>
+        </section>
+
+        <section class="exercicio6">
+                 <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-sun-fill"></i> 6.Classificador de Dia da Semana</h2>
+                    </div>
+                    <div class="card_body">
+                        <form id="Semana_Form" method="post">
+                        <label for="Classificador_Semana">Digite um numero de 1 a 7:</label>
+                        <br>
+                        <input class="dia" type="number" id="Semana" name="Semana" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                        </form>
+                        <div id="resultado_Semana"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/Semana.js"></script>
+        </section>
+
+        <section class="exercicio7">
+                 <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-triangle-fill"></i> 7.Tipo de Triângulo</h2>
+                    </div>
+                    <div class="card_body">
+                        <form id="Triângulo" method="post">
+                        <label for="triangulos">Digite os 3 lados do triangulo:</label>
+                        <br>
+                        <input class="L" type="number" id="lado" name="lado" required>
+                        <br>
+                        <input class="L" type="number" id="lado2" name="lado2" required>
+                        <br>
+                        <input class="L" type="number" id="lado3" name="lado3" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                        </form>
+                        <div id="resultado_Tri"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/Triangulo.js"></script>
+        </section>
+
+        <section class="exercicio8">
+                 <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-user-fill"></i> 8.Gerador de Nome Completo</h2>
+                    </div>
+                    <div class="card_body">
+                        <form id="nomes" method="post">
+                        <label for="nome_completo">Digite um nome e sobrenome:</label>
+                        <br>
+                        <input class="nome" type="text" id="nome" name="nome" required>
+                        <br>
+                        <input class="sobrenome" type="text" id="sobre" name="sobre" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                        </form>
+                        <div id="resultado_Nome"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/Gerador_nome.js"></script>
+        </section>
+        
+        <section class="exercicio9">
+                <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-formula"></i> 9.Calculadora de Média (Dois Valores)</h2>
+                    </div>
+                    <div class="card_body">
+                        <form id="Calculadora" method="post">
+                        <label for="Calculadora de medias">Digite duas notas (0 a 10):</label>
+                        <br>
+                        <input class="calc" type="number" id="media1" name="media1" required>
+                        <br>
+                        <input class="calc" type="number" id="media2" name="media2" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                        </form>
+                        <div id="resultado_calc"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/Calc_media.js"></script>
+        </section>
+        
+        <section class="exercicio10">
+                 <div class="card">
+                    <div class="card_header">
+                        <h2><i class="ri-phone-fill"></i> 10.Formatação de Telefone Simples</h2>
+                    </div>
+                    <div class="card_body">
+                        <form id="Formatador_Telefone" method="post">
+                        <label for="telefone">Digite um telefone (EX: 99819333):</label>
+                        <br>
+                        <input class="tel" type="text" id="telefone" name="telefone" maxlength="8" required>
+                        <br>
+                        <button class="bnt" type="submit">Verificar</button>
+                        </form>
+                        <div id="resultado_telefone"></div>
+                    </div>
+                </div>
+                <script src="JavaScript/telefone.js"></script>
+        </section>
+     </main>
+</body>
+</html>
